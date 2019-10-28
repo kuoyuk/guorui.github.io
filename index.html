@@ -175,7 +175,7 @@
   
     <div class="article-meta">
       <a href="/2019/10/28/%E7%AE%80%E6%B4%81%E5%9C%B0%E5%B0%86mbr+legency%E5%90%AF%E5%8A%A8%E6%97%A0%E6%8D%9F%E8%BD%AC%E5%8C%96%E4%B8%BAgpt+uefi%E5%90%AF%E5%8A%A8%E7%9A%84%E6%96%B9%E6%B3%95/" class="article-date">
-  	<time datetime="2019-10-28T03:26:03.916Z" itemprop="datePublished">2019-10-28</time>
+  	<time datetime="2019-10-28T08:37:47.010Z" itemprop="datePublished">2019-10-28</time>
 </a>
     </div>
   
@@ -200,10 +200,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="简洁地将mbr-legency启动无损转化为gpt-uefi启动的方法"><a href="#简洁地将mbr-legency启动无损转化为gpt-uefi启动的方法" class="headerlink" title="简洁地将mbr+legency启动无损转化为gpt+uefi启动的方法"></a>简洁地将mbr+legency启动无损转化为gpt+uefi启动的方法</h1><h3 id="新换了硬盘，店家不会装gpt格式的硬盘中的系统。网上找了一堆方法也花里胡哨乱七八糟的毫不简单。读过大量这方面的文章后，自己归纳出了一个最为简洁的方法。"><a href="#新换了硬盘，店家不会装gpt格式的硬盘中的系统。网上找了一堆方法也花里胡哨乱七八糟的毫不简单。读过大量这方面的文章后，自己归纳出了一个最为简洁的方法。" class="headerlink" title="新换了硬盘，店家不会装gpt格式的硬盘中的系统。网上找了一堆方法也花里胡哨乱七八糟的毫不简单。读过大量这方面的文章后，自己归纳出了一个最为简洁的方法。"></a>新换了硬盘，店家不会装gpt格式的硬盘中的系统。网上找了一堆方法也花里胡哨乱七八糟的毫不简单。读过大量这方面的文章后，自己归纳出了一个最为简洁的方法。</h3><h4 id="所需工具：diskgenius，dism-。"><a href="#所需工具：diskgenius，dism-。" class="headerlink" title="所需工具：diskgenius，dism++。"></a>所需工具：<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.diskgenius.cn%2F" target="_blank" rel="noopener">diskgenius</a>，<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.chuyu.me%2Fzh-Hans%2F" target="_blank" rel="noopener">dism++</a>。</h4><p>1.首先打开diskgenius，右键单击你系统所在的硬盘，之后选择“转换分区表类型为GUID格式”（我的已经转换过了，因此是灰色状态）<img src="https://upload-images.jianshu.io/upload_images/19832191-e09e158565f83b1d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200" alt="img"></p>
-<p>2.右键上方c盘，选择“建立ESP/MSR分区”（我的已经建立过了，因此是灰色状态）。之后记得点击左上方的保存更改。<img src="https://upload-images.jianshu.io/upload_images/19832191-fb6584287a71e65f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200" alt="img"></p>
-<p>3.打开dism++，点击恢复功能——引导修复<img src="https://upload-images.jianshu.io/upload_images/19832191-c81f8a64cb7cd4a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200" alt="img"></p>
-<p>点击确定，大功告成。<img src="https://upload-images.jianshu.io/upload_images/19832191-64b0220830de495f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200" alt="img"></p>
+        <h1 id="简洁地将mbr-legency启动无损转化为gpt-uefi启动的方法"><a href="#简洁地将mbr-legency启动无损转化为gpt-uefi启动的方法" class="headerlink" title="简洁地将mbr+legency启动无损转化为gpt+uefi启动的方法"></a>简洁地将mbr+legency启动无损转化为gpt+uefi启动的方法</h1><h3 id="新换了硬盘，店家不会装gpt格式的硬盘中的系统。网上找了一堆方法也花里胡哨乱七八糟的毫不简单。读过大量这方面的文章后，自己归纳出了一个最为简洁的方法。"><a href="#新换了硬盘，店家不会装gpt格式的硬盘中的系统。网上找了一堆方法也花里胡哨乱七八糟的毫不简单。读过大量这方面的文章后，自己归纳出了一个最为简洁的方法。" class="headerlink" title="新换了硬盘，店家不会装gpt格式的硬盘中的系统。网上找了一堆方法也花里胡哨乱七八糟的毫不简单。读过大量这方面的文章后，自己归纳出了一个最为简洁的方法。"></a>新换了硬盘，店家不会装gpt格式的硬盘中的系统。网上找了一堆方法也花里胡哨乱七八糟的毫不简单。读过大量这方面的文章后，自己归纳出了一个最为简洁的方法。</h3><h4 id="所需工具：diskgenius，dism-。"><a href="#所需工具：diskgenius，dism-。" class="headerlink" title="所需工具：diskgenius，dism++。"></a>所需工具：<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.diskgenius.cn%2F" target="_blank" rel="noopener">diskgenius</a>，<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.chuyu.me%2Fzh-Hans%2F" target="_blank" rel="noopener">dism++</a>。</h4><p>1.首先打开diskgenius，右键单击你系统所在的硬盘，之后选择“转换分区表类型为GUID格式”（我的已经转换过了，因此是灰色状态）<br><img src="https://img-blog.csdnimg.cn/20191028163124371.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNTY2OTUz,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>2.右键上方c盘，选择“建立ESP/MSR分区”（我的已经建立过了，因此是灰色状态）。之后记得点击左上方的保存更改。<img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xOTgzMjE5MS1mYjY1ODQyODdhNzFlNjVmLnBuZw?x-oss-process=image/format,png" alt="img"></p>
+<p>3.打开dism++，点击恢复功能——引导修复<img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xOTgzMjE5MS1jODFmOGE2NGNiN2NkNGE4LnBuZw?x-oss-process=image/format,png" alt="img"></p>
+<p>点击确定，大功告成。<img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xOTgzMjE5MS02NGIwMjIwODMwZGU0OTVmLnBuZw?x-oss-process=image/format,png" alt="img"></p>
 <p>再次开机，你的电脑已经是uefi+gpt启动了。除去下载软件，五分钟不到结束。</p>
 <p>此文章在我的简书中的链接：<a href="https://www.jianshu.com/p/a89cab855b40" target="_blank" rel="noopener">https://www.jianshu.com/p/a89cab855b40</a></p>
 <p>欢迎交流留言。</p>
